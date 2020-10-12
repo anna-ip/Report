@@ -14,7 +14,7 @@ A log is given when a .txt file is read, then depending on the date-range filter
 ## Use the CLI:
 
 To filter the log by add daterange -s Start date -e End date:
-node log.txt index -s '< date range >'  -e '< date range >'
+node log.txt index -s '< date+time >'  -e '< date+time >'
 
 ## Process:
 
