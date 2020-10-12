@@ -4,7 +4,7 @@
   "description": "CLI tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/anna-ip/Report#readme",
   "dependencies": {
     "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "jest": "^26.5.2"
   }
 }
